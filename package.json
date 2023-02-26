@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android --port 8083",
-    "ios": "react-native run-ios --port 8083",
+    "ios": "react-native run-ios --no-packager",
     "lint": "eslint .",
     "start": "react-native webpack-start --port 8083",
+    "bundle": "react-native webpack-bundle",
     "test": "jest"
   },
   "dependencies": {
